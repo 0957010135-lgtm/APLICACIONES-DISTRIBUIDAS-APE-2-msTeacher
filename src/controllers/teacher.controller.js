@@ -14,6 +14,4 @@ const getTeacher = (req, res) => {
   res.json(teacher);
 };
 
-module.exports = {
-  getTeacher
-};
+module.exports = { getTeacher };
